@@ -1,9 +1,6 @@
 import React from 'react';
 
 import Carousel from 'react-bootstrap/Carousel';
-import grilled from '../../images/grilled.jpg';
-import cheeseburger2 from '../../images/cheeseburger2.jpg';
-import cheeseburger3 from '../../images/cheeseburger3.jpg';
 import {
   HeroContainer,
   HeroContainer2,

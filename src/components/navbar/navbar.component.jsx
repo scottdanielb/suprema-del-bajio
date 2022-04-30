@@ -5,12 +5,10 @@ import {
   Nav,
   NavContainer,
   NavLogo,
-  NavIcon,
   MobileIcon,
   NavMenu,
   NavItem,
   NavLinks,
-  LogoContainer,
 } from './navbar.styled';
 
 import { ReactComponent as Logo } from '../../assets/logoSuprema.svg';
@@ -27,7 +25,7 @@ export const Navbar = () => {
       <IconContext.Provider value={{ color: '#fff' }}>
         <Nav>
           <NavContainer>
-            <NavLogo to='/' onClick={closeMobileMenu}  >
+            <NavLogo to='/' onClick={closeMobileMenu}>
               <Logo />
               Suprema del Bajio
             </NavLogo>
