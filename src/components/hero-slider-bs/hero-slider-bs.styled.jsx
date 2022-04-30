@@ -45,9 +45,9 @@ export const HeroContent = styled.section`
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
-  text-align: left;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   color: #fff;
 
   @media only screen and (max-width: 768px) {
@@ -60,30 +60,20 @@ export const HeroContentText = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
-
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-  }
-  @media only screen and (max-width: 375px) {
-    position: absolute;
-    align-items: flex-start;
-  }
+  justify-content: center;
+  align-items: center;
 `;
 
 export const HeroTitle = styled.h1`
-  font-size: clamp(1rem, 4vw, 4rem);
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
   font-weight: 700;
-  min-width: 528px;
-  max-width: 528px;
   margin-top: inherit;
 `;
 
-export const HeroSubtitle = styled.h2`
-  font-size: clamp(1rem, 2vw, 4rem);
-  font-weight: 500;
-  min-width: 544px;
-  white-space: normal;
+export const HeroSubtitle = styled.p`
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
   margin-top: inherit;
 `;
