@@ -1,10 +1,18 @@
 import React from 'react';
 
-
-import { WhatsappComponent } from './whatsapp-widget.styles';
+import WhatsAppWidget from 'react-whatsapp-widget';
+import 'react-whatsapp-widget/dist/index.css';
 
 const WhatsAppContact = () => {
-  return <WhatsappComponent phoneNumber='XXXXXXXX' />;
+  return (
+    <WhatsAppWidget
+      phoneNumber='524497532760'
+      textReplyTime='Tiempo de respuesta aproximado: 1 hora'
+      message={'¡Hola! 👋🏼 \n\nEn que puedo ayudarle?'}
+      companyName='Suprema Del Bajío'
+      sendButton='Enviar'
+    />
+  );
 };
 
 export default WhatsAppContact;

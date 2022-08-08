@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from 'react-router-dom';
 
 import GlobalStyle from './globalStyles';
 
@@ -10,6 +14,7 @@ import Home from './pages/home/home.component';
 import Productos from './pages/productos/productos.component';
 import Nosotros from './pages/nosotros/nosotros.component';
 import Contacto from './pages/contacto/contacto.component';
+import WhatsAppContact from './widgets/whatsapp/whatsapp-widget.component';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +27,7 @@ ReactDOM.render(
         <Route path='/productos/' element={<Productos />} />
         <Route path='/contacto/' element={<Contacto />} />
       </Routes>
+      <WhatsAppContact />
       <Footer />
     </Router>
   </React.StrictMode>,

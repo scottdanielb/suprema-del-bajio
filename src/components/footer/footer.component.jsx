@@ -18,9 +18,12 @@ const Footer = () => {
         <FooterSubheading>
           Disfruta de las mejores hamburgesas para todas las ocasiones
         </FooterSubheading>
-        <FooterSubText> Síguenos en nuestras redes sociales</FooterSubText>
+        <FooterSubText>
+          {' '}
+          Síguenos en nuestras redes sociales
+        </FooterSubText>
         <SocialIconLink
-          href='https://www.instagram.com/nasa/'
+          href='https://www.instagram.com/supremadelbajio/'
           target='_blank'
           aria-label='Instagram'
         >
